@@ -1,0 +1,21 @@
+# --- Core runtime ---
+pydantic>=2.3
+PyYAML>=6.0
+requests>=2.31.0
+tenacity>=8.2.3
+rich>=13.7.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- LLM client (OpenAI-compatible) ---
+langchain-openai>=0.2.0
+
+# --- Orchestration (LangGraph) ---
+langgraph>=0.2.0
+
+# --- UI ---
+streamlit>=1.33.0
+
+# --- RAG / Vectorization ---
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.2  # opsiyonel: HybridRAG için (TF-IDF + embedding)
